@@ -1,0 +1,11 @@
+<h1>Tasks. Whooooo</h1>
+
+<% @tasks.each do |task| %>
+
+    <div>
+        Task: <%= task.content %> <br>
+        Complete: <%=  task.complete %>
+        Created At: <%=  task.created_at %>
+    </div>
+
+<% end %>
